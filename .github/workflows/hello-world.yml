@@ -6,7 +6,7 @@ on:
 
 jobs:
   hello:
-    runs-on: ubuntu-slim  # [self-hosted, celesto]
+    runs-on: [self-hosted, celesto]
     steps:
       - name: Say hello
         run: echo "Hello, world!"
